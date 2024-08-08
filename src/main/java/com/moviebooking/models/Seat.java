@@ -18,6 +18,12 @@ public class Seat {
 		this.rowNo = rowNo;
 		this.seatNo = seatNo;
 	}
+
+
+	public String getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 	
