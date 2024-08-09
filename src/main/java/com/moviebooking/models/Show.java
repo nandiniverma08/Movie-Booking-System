@@ -1,5 +1,7 @@
 package com.moviebooking.models;
 
+import java.util.Date;
+
 import javax.xml.crypto.Data;
 
 import lombok.AllArgsConstructor;
@@ -16,7 +18,7 @@ public class Show {
 	private final Integer durationInSeconds;
 	
 	
-	public Show(String id, Movie movie, Screen screen, Data date, Integer durationInSeconds) {
+	public Show(String id, Movie movie, Screen screen, Date date, Integer durationInSeconds) {
 		super();
 		this.id = id;
 		this.movie = movie;
